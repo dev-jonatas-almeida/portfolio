@@ -9,13 +9,18 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-canvas: #F9F9F9;
+  --color-ink: #392F5A;
 
-  --color-bright-snow: #F9F9F9;
-  --color-dusty-olive: #7E9181;
-  --color-Razzmatazz: #E40066;
-  --color-dodger-blue: #0496FF;
-  --color-space-indig: #392F5A;
+  --color-ink-muted: color-mix(in oklab, #392F5A 62%, #F9F9F9);
+  --color-ink-subtle: color-mix(in oklab, #392F5A 38%, #F9F9F9);
+  --color-line: color-mix(in oklab, #392F5A 12%, #F9F9F9);
+  --color-surface: color-mix(in oklab, #392F5A 4%, #F9F9F9);
 
+  --color-accent: #E40066;
+  --color-accent-hover: color-mix(in oklab, #E40066 85%, black);
+  --color-focus: #0496FF;
+  --color-support: #7E9181;
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
